@@ -1,2 +1,4 @@
-# trabalhof1
-Criando um site para formula 1 como trabalho da faculdade.
+# TRABALHO FORMULA 1 DA FACULDADE
+---
+
+Entrega dia 21
