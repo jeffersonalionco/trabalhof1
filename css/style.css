@@ -1,23 +1,27 @@
-body {
-    height: 1400px;
+.corpo {
+    margin: 0;
+    height: 2000px;
 }
 
 .menu {
     position: absolute;
     background-image: linear-gradient(to bottom, #ff0000, #690101);
     margin: 0px;
-    top: 0px;
-    width: 100%;
-    height: 70px;
+    top: 15px;
+    left: 5%;
+    width: 90%;
+    height: 90px;
+    border-radius: 10px;
 
 }
 
 
 .menu2 {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
- 
+
 }
 
 .logoFia {
@@ -54,16 +58,17 @@ body {
 }
 
 .container1 {
+    background: linear-gradient(#fff, #dfdcdc);
     position: absolute;
     top: 120px;
     border-radius: 10px;
-    left: 30px;
+    left: 5%;
     width: 45%;
     height: 600px;
 }
 
 .container1:hover {
-    
+
     box-shadow: 8px 8px 8px 3px rgba(112, 134, 150, 0.2);
     border: 2px solid rgb(90, 0, 0);
     width: 47%;
@@ -72,13 +77,16 @@ body {
 
 
 }
+.container1:hover, .container1:focus{
+    transition-duration: 1s;
+}
 
 .container2 {
+    background: linear-gradient(#fff, #dfdcdc);
     border-radius: 10px;
     position: absolute;
     top: 120px;
-    right: 30px;
-    width: 45%;
+    right: 5%;
     height: 600px;
 }
 
@@ -93,26 +101,28 @@ body {
 }
 
 .container3 {
+    background: linear-gradient(#fff, #dfdcdc);
     border-radius: 10px;
     position: relative;
     top: 1200px;
-    width: 80%;
     height: 600px;
-    left: 10%;
-    right: 10%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
     border: 0.1px solid #ff5e00;
 }
+
 .container3:hover {
-    
+
     transition-duration: 1s;
     border: 2.5px solid #ff5e00;
-    
+
 }
 
 
 .expandido {
     position: fixed;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 85%;
@@ -124,11 +134,11 @@ body {
 }
 
 
-.container1, .container2{
+.container1, .container2 {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
     top: center;
-    width: 45%;
+    width: 42%;
     height: 600px;
     border: 0.1px solid #ff5e00;
     cursor: pointer;
@@ -156,11 +166,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    cursor:crosshair;
+    cursor: crosshair;
     transition-duration: 2s;
     text-align: center;
-    
+
 }
+
 .formula1 {
     position: relative;
     top: -15%;
@@ -169,6 +180,8 @@ body {
     color: rgb(141, 0, 0);
     transition-duration: 2s;
     transition-delay: 3s;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #fff;
 }
 
 .carro {
@@ -180,11 +193,24 @@ body {
     margin: 20px;
     transition-duration: 4s;
     cursor: wait;
+
+}
+.explosao {
+    transition-duration: 2s;
+    width: 50%;
+    height: 70%;
     
 }
-.linha {
-    width: 100%;
-    border: 3px dashed #fff;
+
+.logounipar {
+    position: relative;
+    top: -28%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    opacity: 0;
+    transition-duration: 3ms;
+    transition-delay: 3s;
 }
 
 
@@ -193,7 +219,7 @@ body {
 .footer {
     position: absolute;
     top: 2000px;
-    background-color: #38383f;
+    background-color: #380000;
     width: 100%;
     height: 70px;
 }
