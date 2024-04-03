@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+ 
 }
 
 .logoFia {
@@ -56,38 +56,57 @@ body {
 .container1 {
     position: absolute;
     top: 120px;
-
+    border-radius: 10px;
     left: 30px;
     width: 45%;
     height: 600px;
-    border: 1px solid black;
 }
 
 .container1:hover {
-    box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.2);
-    border: 1.5px solid rgb(97, 34, 34);
-    background-color: rgb(231, 228, 224);
+    
+    box-shadow: 8px 8px 8px 3px rgba(112, 134, 150, 0.2);
+    border: 2px solid rgb(90, 0, 0);
+    width: 47%;
+    height: 650px;
     transition-duration: 1s;
 
 
 }
 
 .container2 {
-    position: relative;
+    border-radius: 10px;
+    position: absolute;
     top: 120px;
     right: 30px;
     width: 45%;
     height: 600px;
-    border: 1px solid black;
 }
 
 .container2:hover {
-    box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.2);
-    border: 1.5px solid rgb(97, 34, 34);
-    background-color: rgb(231, 228, 224);
+    width: 47%;
+    height: 650px;
+    box-shadow: 8px 8px 8px 3px rgba(112, 134, 150, 0.2);
+    border: 2px solid rgb(68, 4, 4);
     transition-duration: 1s;
 
 
+}
+
+.container3 {
+    border-radius: 10px;
+    position: relative;
+    top: 1200px;
+    width: 80%;
+    height: 600px;
+    left: 10%;
+    right: 10%;
+    border: 0.1px solid #ff5e00;
+}
+.container3:hover {
+    
+    transition-duration: 1s;
+    border: 2.5px solid #ff5e00;
+    
 }
 
 
@@ -96,36 +115,84 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: 85%;
     z-index: 1000;
     background-color: #fff;
     border: 1px solid #940000;
     transition-duration: 1s;
 }
 
-.expandido h2 {
-    margin: 0;
-    text-align: center;
-    padding: 20px;
-}
 
-.container1, .container2 {
+.container1, .container2{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
     top: center;
     width: 45%;
     height: 600px;
-    border: 1px solid black;
+    border: 0.1px solid #ff5e00;
     cursor: pointer;
 }
 
+.tituloContainer {
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    margin-left: 5%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 2px solid #690101;
+    border-right: 10px solid #690101;
+    border-bottom: 2px solid #690101;
+}
+
+.faixa {
+    position: absolute;
+    top: 800px;
+    height: 400px;
+    width: 100%;
+    background-color: #38383f;
+    background-image: url('../img/rua2.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor:crosshair;
+    transition-duration: 2s;
+    text-align: center;
+    
+}
+.formula1 {
+    position: relative;
+    top: -15%;
+    opacity: 0;
+    font-size: 120px;
+    color: rgb(141, 0, 0);
+    transition-duration: 2s;
+    transition-delay: 3s;
+}
+
+.carro {
+    position: absolute;
+    width: 15%;
+    left: 0%;
+    top: 45%;
+    height: 60px;
+    margin: 20px;
+    transition-duration: 4s;
+    cursor: wait;
+    
+}
+.linha {
+    width: 100%;
+    border: 3px dashed #fff;
+}
 
 
 
 
 .footer {
     position: absolute;
-    top: 1400px;
+    top: 2000px;
     background-color: #38383f;
     width: 100%;
     height: 70px;
