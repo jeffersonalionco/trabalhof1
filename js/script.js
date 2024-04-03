@@ -28,9 +28,9 @@ function moverCarro(direita) {
 
 function gerarExplosao() {
     var carro = document.querySelector('.carro');
-    carro.src = './img/explosao1.gif'; // Substituir pelo caminho da imagem de explosão
-    carro.classList.add('explosao');
-    carro.style.left = carro.offsetLeft + 'px';
+    carro.src = './img/explosao1.gif'; // gif da explosão do carro...
+    carro.classList.add('explosao'); // um estilo dedicado a imagen da explosão
+    carro.style.left = carro.offsetLeft + 'px'; 
     carro.style.top = carro.offsetTop + 'px';
 
     // Alterando o plano de fundo da pista quando clicar 
@@ -40,6 +40,7 @@ function gerarExplosao() {
     //Texto da formula 1
     var formula1 = document.querySelector('.formula1')
     formula1.style.opacity = 100;
+    formula1.style.transform = "scale(1.2)";
 
     // Logo da formula 1, era pra ser da Unipar mais não encontrei png branca 
     var logounipar = document.querySelector('.logounipar')

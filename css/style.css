@@ -109,13 +109,14 @@
     left: 5%;
     right: 5%;
     width: 90%;
-    border: 0.1px solid #ff5e00;
+    border-left: 2.5px solid #ff5e00;
+    border-right: 2.5px solid #ff5e00;
 }
 
 .container3:hover {
 
     transition-duration: 1s;
-    border: 2.5px solid #ff5e00;
+    
 
 }
 
