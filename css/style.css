@@ -105,7 +105,7 @@
     border-radius: 10px;
     position: relative;
     top: 1200px;
-    height: 600px;
+    height: 800px;
     left: 5%;
     right: 5%;
     width: 90%;
@@ -148,7 +148,7 @@
 .tituloContainer {
     font-size: 20px;
     text-align: center;
-    width: 80%;
+    width: 90%;
     margin-left: 5%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -219,8 +219,100 @@
 
 .footer {
     position: absolute;
-    top: 2000px;
+    top: 2px;
+    top: 2200px;
     background-color: #380000;
     width: 100%;
     height: 70px;
+}
+
+
+
+.imglogos{
+    width: 60px;
+    height: 45px;
+}
+
+.tbequipes{
+    text-align: center;
+    width: 90%;
+    height: 60%;
+}
+
+.tbpilotos{
+    text-align: center;
+    width: 90%;
+    height: 60%;
+}
+
+.container3tb1{
+    position: absolute;
+    text-align: center;
+    top: 8%;
+    left: 5%;
+    width: 40%;
+    height: 60%;
+}
+.tbetapa1{
+    width: 50%;
+}
+
+.container3tb2{
+    position: absolute;
+    text-align: center;
+    top: 8%;
+    left: 40%;
+    width: 40%;
+    height: 60%;
+}
+.tbetapa2{
+    width: 50%;
+}
+
+.container3tb3{
+    position: absolute;
+    text-align: center;
+    top: 8%;
+    right: -15%;
+    width: 40%;
+    height: 60%;
+}
+.tbetapa3{
+    width: 50%;
+}
+
+.container3tb4{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 5%;
+    width: 40%;
+    height: 60%;
+}
+.tbequipes1{
+    width: 50%;
+}
+
+.container3tb5{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 40%;
+    width: 40%;
+    height: 60%;
+}
+.tbequipes2{
+    width: 50%;
+}
+
+.container3tb6{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: -15%;
+    width: 40%;
+    height: 60%;
+}
+.tbequipes3{
+    width: 50%;
 }
